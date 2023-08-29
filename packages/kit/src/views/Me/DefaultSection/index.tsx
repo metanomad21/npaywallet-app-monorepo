@@ -105,7 +105,7 @@ export const DefaultSection = () => {
             <Divider />
           </>
         )}
-        <Pressable
+        {/* <Pressable
           display="flex"
           flexDirection="row"
           justifyContent="space-between"
@@ -132,7 +132,7 @@ export const DefaultSection = () => {
           <Box>
             <Icon name="ChevronRightMini" color="icon-subdued" size={20} />
           </Box>
-        </Pressable>
+        </Pressable> */}
         <Divider />
         <Pressable
           display="flex"

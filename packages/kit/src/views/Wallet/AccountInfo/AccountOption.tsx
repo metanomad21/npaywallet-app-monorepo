@@ -26,6 +26,7 @@ import { useAllNetworksSelectNetworkAccount } from '../../../hooks/useAllNetwoks
 import { ModalRoutes, RootRoutes, TabRoutes } from '../../../routes/routesEnum';
 import AccountMoreMenu from '../../Overlay/AccountMoreMenu';
 import { ReceiveTokenModalRoutes } from '../../ReceiveToken/types';
+import { gotoScanQrcode } from '../../../utils/gotoScanQrcode';
 
 type AccountOptionProps = { isSmallView: boolean };
 
@@ -187,6 +188,38 @@ const AccountOption: FC<AccountOptionProps> = memo(
             }
           >
             {intl.formatMessage({ id: 'action__receive' })}
+          </Typography.CaptionStrong>
+        </Pressable>
+        <Pressable
+          flex={iconBoxFlex}
+          mx={3}
+          minW="56px"
+          alignItems="center"
+          isDisabled={wallet?.type === 'watching' || !account}
+          onPress={onReceive}
+        >
+          <TouchableWithoutFeedback>
+            <IconButton
+              circle
+              size={isSmallView ? 'xl' : 'lg'}
+              name='ViewfinderCircleMini' as ICON_NAMES
+              type="basic"
+              isDisabled={wallet?.type === 'watching' || !account}
+              onPress={() => {
+                gotoScanQrcode()
+              }}
+            />
+          </TouchableWithoutFeedback>
+          <Typography.CaptionStrong
+            textAlign="center"
+            mt="8px"
+            color={
+              wallet?.type === 'watching' || !account
+                ? 'text-disabled'
+                : 'text-default'
+            }
+          >
+            {intl.formatMessage({ id: 'action__scan' })}
           </Typography.CaptionStrong>
         </Pressable>
         {/* {network?.settings.hiddenAccountInfoSwapOption ? null : (

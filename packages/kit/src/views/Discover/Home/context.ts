@@ -27,5 +27,6 @@ export const DiscoverContext = createContext<IDiscoverContext>({
 
 export const useContextDapps = () => {
   const { categoryId, dapps } = useContext(DiscoverContext);
+  console.log("use context ... ", dapps)
   return dapps?.[categoryId ?? 'main'] ?? [];
 };
