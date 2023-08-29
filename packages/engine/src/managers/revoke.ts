@@ -67,6 +67,7 @@ export const OPENSEA_REGISTRY_ADDRESS =
   '0xa5409ec958C83C3f309868babACA7c86DCB077c1';
 
 enum ChainId {
+  NinePurpleChain = 9686,
   EthereumMainnet = 1,
   Ropsten = 3,
   Rinkeby = 4,
@@ -146,6 +147,7 @@ export const PROVIDER_SUPPORTED_CHAINS = [
 ];
 
 export const ETHERSCAN_SUPPORTED_CHAINS = [
+  ChainId.NinePurpleChain,
   ChainId.BinanceSmartChainMainnet,
   ChainId.BinanceSmartChainTestnet,
   ChainId.PolygonMainnet,

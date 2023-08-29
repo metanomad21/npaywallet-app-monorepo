@@ -128,7 +128,7 @@ const AssetsListHeaderInner: FC<{
   return (
     <HomeTabAssetsHeader
       icon="DatabaseOutline"
-      title={intl.formatMessage({ id: 'asset__tokens' })}
+      title={intl.formatMessage({ id: 'asset__tokens_npc' })}
       usdFiatValue={accountTokensValue}
       shareRate={shareRate}
       extraIcon={extraInfo.extraIcon}

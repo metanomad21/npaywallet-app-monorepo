@@ -149,16 +149,8 @@ const WalletTabs: FC = () => {
         tab: tokensTab,
       },
       {
-        name: WalletHomeTabEnum.Collectibles,
-        tab: nftTab,
-      },
-      {
         name: WalletHomeTabEnum.History,
         tab: historyTab,
-      },
-      {
-        name: WalletHomeTabEnum.Tools,
-        tab: toolsTab,
       },
     ];
     return defaultTabs.filter((t) => {
