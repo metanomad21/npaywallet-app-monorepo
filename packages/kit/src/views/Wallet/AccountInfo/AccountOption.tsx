@@ -189,7 +189,7 @@ const AccountOption: FC<AccountOptionProps> = memo(
             {intl.formatMessage({ id: 'action__receive' })}
           </Typography.CaptionStrong>
         </Pressable>
-        {network?.settings.hiddenAccountInfoSwapOption ? null : (
+        {/* {network?.settings.hiddenAccountInfoSwapOption ? null : (
           <Pressable
             flex={iconBoxFlex}
             mx={3}
@@ -220,7 +220,7 @@ const AccountOption: FC<AccountOptionProps> = memo(
               {intl.formatMessage({ id: 'title__swap' })}
             </Typography.CaptionStrong>
           </Pressable>
-        )}
+        )} */}
 
         {network?.settings.hiddenAccountInfoMoreOption ? null : (
           <AccountMoreMenu

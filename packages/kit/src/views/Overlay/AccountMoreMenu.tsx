@@ -203,29 +203,29 @@ const AccountMoreMenu: FC<Props> = ({ iconBoxFlex, isSmallView }) => {
     | undefined
   )[] = useMemo(
     () => [
-      !!needActivateAccount && {
-        id: 'action__get_faucet',
-        onPress: () => {
-          if (!account) return;
-          if (!network) return;
+      // !!needActivateAccount && {
+      //   id: 'action__get_faucet',
+      //   onPress: () => {
+      //     if (!account) return;
+      //     if (!network) return;
 
-          backgroundApiProxy.engine
-            .activateAccount(account.id, network.id)
-            .catch(() => {});
-        },
-        icon: 'LightBulbMini',
-      },
-      // TODO Connected Sites
-      buy.visible && {
-        id: 'action__buy_crypto',
-        onPress: buy.process,
-        icon: 'PlusMini',
-      },
-      sell.visible && {
-        id: 'action__sell_crypto',
-        onPress: sell.process,
-        icon: 'BanknotesMini',
-      },
+      //     backgroundApiProxy.engine
+      //       .activateAccount(account.id, network.id)
+      //       .catch(() => {});
+      //   },
+      //   icon: 'LightBulbMini',
+      // },
+      // // TODO Connected Sites
+      // buy.visible && {
+      //   id: 'action__buy_crypto',
+      //   onPress: buy.process,
+      //   icon: 'PlusMini',
+      // },
+      // sell.visible && {
+      //   id: 'action__sell_crypto',
+      //   onPress: sell.process,
+      //   icon: 'BanknotesMini',
+      // },
       !!account?.address && {
         id: 'action__view_in_explorer',
         icon: 'GlobeAltMini',
