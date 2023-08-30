@@ -47,13 +47,23 @@ class RestfulRequest {
     params?: Record<string, any>,
     headers?: Record<string, string>,
     timeout?: number,
+    noNeedBuildUrl?: Boolean
   ): Promise<Response> {
     // eslint-disable-next-line no-param-reassign
     headers = this.assembleHeaders(headers);
 
-    const url = this.buildUrl(path);
-    if (typeof params === 'object') {
-      url.search = new URLSearchParams(params).toString();
+    let url;
+    if(!noNeedBuildUrl){
+      url = this.buildUrl(path);
+      try{
+        if (typeof params === 'object') {
+          url.search = new URLSearchParams(params).toString();
+        }
+      }catch(err) {
+        console.log("debug: catch ...", err)
+      }
+    }else{
+      url = path;
     }
 
     const response = await fetch(url.toString(), {

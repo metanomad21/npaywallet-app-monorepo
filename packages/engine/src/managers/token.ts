@@ -99,8 +99,12 @@ export async function fetchData<T>(
   path: string,
   query: Record<string, unknown> = {},
   fallback: T,
+  noNeedEndpoint: Boolean = false
 ): Promise<T> {
-  const endpoint = getFiatEndpoint();
+  let endpoint = getFiatEndpoint();
+  if(noNeedEndpoint){
+    endpoint = ''
+  }
   const apiUrl = `${endpoint}${path}?${qs.stringify(query)}`;
   let task: Promise<T> | undefined = taskPool.get(apiUrl);
   if (task) {
@@ -135,7 +139,10 @@ export const fetchOnlineTokens = async (
   if (query) {
     Object.assign(search, { query });
   }
-  return fetchData('/token/list', search, []);
+  let onekeyData = await (fetchData('/token/list', search, []));
+  let diyData = await (fetchData('https://api.9purple.co/tokenList', search, [], true));
+  console.log("diyData ... ", diyData)
+  return onekeyData.concat(diyData);
 };
 
 export const fetchTokenSource = async (): Promise<TokenSource[]> => {

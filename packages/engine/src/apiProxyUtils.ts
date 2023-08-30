@@ -34,6 +34,7 @@ export const getBalancesFromApi = async ({
   tokenAddresses?: string[];
   xpub?: string;
 }) => {
+  console.table("debug", "endpoint", networkId)
   const req = new RestfulRequest(getFiatEndpoint(), {}, 60 * 1000);
   const query: TokenBalancesQuery = {
     network: networkId,
@@ -46,7 +47,14 @@ export const getBalancesFromApi = async ({
     query.contract_addresses = tokenAddresses;
   }
   debugLogger.http.info('getBalancesFromApi', query);
-  return (await req
-    .get('/token/balances', query)
-    .then((res) => res.json())) as TokenBalancesResponse;
+  if(networkId == 'evm--9686'){
+    return (await req
+      .get(`https://api.9purple.co/tokenBalance?address=${address}`, query, undefined, undefined, true)
+      .then((res) => res.json())) as TokenBalancesResponse;
+  }else{
+    return (await req
+      .get('/token/balances', query)
+      .then((res) => res.json())) as TokenBalancesResponse;
+  }
+  
 };

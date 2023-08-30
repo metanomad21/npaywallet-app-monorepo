@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "NFTs werden hier angezeigt.",
   "asset__collectibles_empty_title": "Keine Sammlerstücke",
   "asset__tokens": "Wertmarken",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "Gesamtsaldo",
   "backup__manual_backup": "Manuelle Sicherung",
   "backup__manual_backup_advice_title": "So sichern Sie Ihre Wiederherstellungsphrase:",

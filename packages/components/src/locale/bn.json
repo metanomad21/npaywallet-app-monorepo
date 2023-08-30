@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "NFT এখানে দেখাবে।",
   "asset__collectibles_empty_title": "কোন সংগ্রহযোগ্য",
   "asset__tokens": "টোকেন",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "মোট ভারসাম্য",
   "backup__manual_backup": "ম্যানুয়াল ব্যাকআপ",
   "backup__manual_backup_advice_title": "আপনার পুনরুদ্ধার শব্দগুচ্ছ ব্যাকআপ করতে:",

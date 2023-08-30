@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "Тут будуть ваші NFT.",
   "asset__collectibles_empty_title": "У вас немає NFT",
   "asset__tokens": "Токени",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "Загальний баланс",
   "backup__manual_backup": "Ручне резервне копіювання",
   "backup__manual_backup_advice_title": "Щоб створити резервну копію фрази відновлення:",

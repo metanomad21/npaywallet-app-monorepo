@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "Les NFT s'afficheront ici.",
   "asset__collectibles_empty_title": "Aucun objet de collection",
   "asset__tokens": "Jetons",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "Solde total",
   "backup__manual_backup": "Sauvegarde manuelle",
   "backup__manual_backup_advice_title": "Pour sauvegarder votre phrase de récupération :",

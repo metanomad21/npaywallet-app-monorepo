@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "NFT가 여기에 표시됩니다.",
   "asset__collectibles_empty_title": "수집품 없음",
   "asset__tokens": "토큰",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "전체 균형",
   "backup__manual_backup": "수동 백업",
   "backup__manual_backup_advice_title": "복구 문구를 백업하려면:",

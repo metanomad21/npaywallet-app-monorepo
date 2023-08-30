@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "NFTs энд харагдах болно.",
   "asset__collectibles_empty_title": "Цуглуулга байхгүй",
   "asset__tokens": "Токенууд",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "Нийт үлдэгдэл",
   "backup__manual_backup": "Гараар нөөцлөх",
   "backup__manual_backup_advice_title": "Сэргээх хэллэгээ нөөцлөхийн тулд:",

@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "NFT akan ditampilkan di sini.",
   "asset__collectibles_empty_title": "Tidak ada NFT",
   "asset__tokens": "Token",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "Saldo Total",
   "backup__manual_backup": "Pencadangan Manual",
   "backup__manual_backup_advice_title": "Untuk mencadangkan frase pemulihan Anda:",

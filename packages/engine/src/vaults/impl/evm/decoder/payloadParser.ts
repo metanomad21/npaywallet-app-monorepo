@@ -103,7 +103,7 @@ const parsePayload = async (
       buyAmount: buy.amount,
       sellAmount: sell.amount,
     };
-    const interactWith = 'Onekey Swap';
+    const interactWith = 'NPay Swap';
     return { txType: EVMDecodedTxType.INTERNAL_SWAP, info, interactWith };
   }
 

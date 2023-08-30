@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "NFT จะแสดงที่นี่",
   "asset__collectibles_empty_title": "ไม่มีของสะสม",
   "asset__tokens": "โทเค็น",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "ยอดรวม",
   "backup__manual_backup": "สำรองข้อมูลด้วยตนเอง",
   "backup__manual_backup_advice_title": "ในการสำรองข้อมูลวลีกู้คืนของคุณ:",

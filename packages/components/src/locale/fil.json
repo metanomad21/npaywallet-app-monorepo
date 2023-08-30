@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "Ipapakita dito ang mga NFT.",
   "asset__collectibles_empty_title": "Walang Collectibles",
   "asset__tokens": "Mga token",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "Kabuuang balanse",
   "backup__manual_backup": "Manu-manong Pag-backup",
   "backup__manual_backup_advice_title": "Upang i-backup ang iyong parirala sa pagbawi:",

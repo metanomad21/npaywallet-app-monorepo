@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "NFTはここに表示される。",
   "asset__collectibles_empty_title": "NFTが無い",
   "asset__tokens": "トークン",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "残高",
   "backup__manual_backup": "手動バックアップ",
   "backup__manual_backup_advice_title": "リカバリーフレーズをバックアップするには",

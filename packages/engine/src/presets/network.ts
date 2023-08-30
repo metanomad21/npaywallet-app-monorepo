@@ -47,7 +47,8 @@ async function initNetworkList() {
     '@onekeyhq/shared/src/config/presetNetworks'
   );
 
-  serverPresetNetworks.concat(serverUpdatedNetworks).forEach((s) => {
+  // serverPresetNetworks.concat(serverUpdatedNetworks).forEach((s) => {
+  serverPresetNetworks.forEach((s) => {
     try {
       const network = formatServerNetworkToPresetNetwork(s);
       record[network.id] = network;

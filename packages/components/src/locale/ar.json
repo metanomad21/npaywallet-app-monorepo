@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "ستظهر NFTs هنا.",
   "asset__collectibles_empty_title": "لا مقتنيات",
   "asset__tokens": "الرموز",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "إجمالي الرصيد",
   "backup__manual_backup": "النسخ الاحتياطي اليدوي",
   "backup__manual_backup_advice_title": "لعمل نسخة احتياطية من عبارة الاسترداد:",

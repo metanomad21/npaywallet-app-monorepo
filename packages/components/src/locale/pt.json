@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "NFTs serão exibidos aqui.",
   "asset__collectibles_empty_title": "Sem colecionáveis",
   "asset__tokens": "Fichas",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "Balanço total",
   "backup__manual_backup": "Backup manual",
   "backup__manual_backup_advice_title": "Para fazer backup de sua frase de recuperação:",

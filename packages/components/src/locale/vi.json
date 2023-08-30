@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "NFTs sẽ hiển thị ở đây.",
   "asset__collectibles_empty_title": "Không có Sưu tầm",
   "asset__tokens": "Mã thông báo",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "Tổng số dư",
   "backup__manual_backup": "Sao lưu thủ công",
   "backup__manual_backup_advice_title": "Để sao lưu cụm từ khôi phục của bạn:",

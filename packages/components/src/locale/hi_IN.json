@@ -392,6 +392,7 @@
   "asset__collectibles_empty_desc": "एनएफटी यहां दिखाई देंगे।",
   "asset__collectibles_empty_title": "कोई संग्रहणीय नहीं",
   "asset__tokens": "टोकन",
+  "asset__tokens_npc": "NPAY Token",
   "asset__total_balance": "कुल शेष",
   "backup__manual_backup": "मैनुअल बैकअप",
   "backup__manual_backup_advice_title": "अपने पुनर्प्राप्ति वाक्यांश का बैकअप लेने के लिए:",

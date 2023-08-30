@@ -35,6 +35,8 @@ export function useContextAccountTokens(
   const accountTokens = useAccountTokensOnChain(networkId, accountId);
   const balances = useCachedBalances(networkId, accountId);
 
+  console.log("debug useContextAccountTokens accountTokens ... ", accountTokens)
+
   const prices = useAppSelector((s) => s.tokens.tokenPriceMap);
   const selectedFiatMoneySymbol = useAppSelector(
     (s) => s.settings.selectedFiatMoneySymbol,
