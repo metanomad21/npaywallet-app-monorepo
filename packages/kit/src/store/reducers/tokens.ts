@@ -112,7 +112,6 @@ export const tokensSlice = createSlice({
       if (!state.accountTokens[networkId]) {
         state.accountTokens[networkId] = {};
       }
-      console.log("debug setAccountTokens ... ", tokens)
       state.accountTokens[networkId][accountId] = uniqBy(
         tokens.filter((t, _i, arr) => {
           if (

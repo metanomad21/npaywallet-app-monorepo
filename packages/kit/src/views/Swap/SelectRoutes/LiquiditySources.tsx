@@ -18,7 +18,7 @@ export const LiquiditySources: FC<LiquiditySourcesProps> = ({
   const isSmall = useIsVerticalLayout();
 
   const sources = providers?.map((item) => item.logoUrl).filter(Boolean) ?? [];
-  let text = 'OneKey Swap';
+  let text = 'NPay Swap';
   if (providers?.length === 1) {
     text = providers[0].name;
   } else if (providers?.length && providers?.length >= 2) {

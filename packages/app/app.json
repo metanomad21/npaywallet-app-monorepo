@@ -1,9 +1,9 @@
 {
   "expo": {
-    "scheme": "onekey-wallet",
-    "name": "OneKey Wallet",
-    "slug": "OneKey-Wallet",
-    "owner": "onekeyhq",
+    "scheme": "npay-wallet",
+    "name": "NPay Wallet",
+    "slug": "NPay-Wallet",
+    "owner": "9purpledao",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,8 +18,8 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "so.onekey.wallet",
-      "associatedDomains": ["applinks:app.onekey.so"]
+      "bundleIdentifier": "com.yifeng.npc01",
+      "associatedDomains": ["applinks:app.yifeng.npc01"]
     },
     "android": {
       "googleServicesFile": "./android/app/google-services.json",

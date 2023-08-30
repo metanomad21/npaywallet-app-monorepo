@@ -12,11 +12,11 @@
 @keyframes a3_o { 0% { opacity: 0; } 13.3333% { opacity: 0; animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 26.6667% { opacity: 1; } 100% { opacity: 1; } }
     </style>
   <g id="number2" transform="translate(407,20) translate(-20,-20)">
-    <rect width="40" height="40" rx="20" fill="#00B812" transform="translate(20,20) translate(-20,-20)" />
+    <rect width="40" height="40" rx="20" fill="#532289" transform="translate(20,20) translate(-20,-20)" />
     <path d="M403.219,26L410.812,26L410.812,24.5078L405.602,24.5078L405.602,24.3516L407.992,21.9688C410.039,19.9375,410.633,18.9531,410.633,17.6719L410.633,17.6484C410.633,15.7891,409.086,14.4531,406.984,14.4531C404.719,14.4531,403.125,15.9062,403.117,17.9688L403.133,17.9844L404.773,17.9844L404.781,17.9609C404.781,16.7266,405.625,15.8984,406.891,15.8984C408.125,15.8984,408.883,16.7109,408.883,17.8125L408.883,17.8359C408.883,18.75,408.453,19.3281,406.961,20.8828L403.219,24.8125L403.219,26Z" fill="#EBF9EC" transform="translate(19.9645,20.2265) translate(-406.965,-20.2265)" />
   </g>
   <g id="number1" transform="translate(120,20) translate(-20,-20)">
-    <rect width="40" height="40" rx="20" fill="#00B812" transform="translate(20,20) translate(-20,-20)" />
+    <rect width="40" height="40" rx="20" fill="#532289" transform="translate(20,20) translate(-20,-20)" />
     <path d="M119.977,26L121.727,26L121.727,14.7266L119.977,14.7266L117.008,16.8359L117.008,18.5547L119.844,16.5312L119.977,16.5312L119.977,26Z" fill="#EBF9EC" transform="translate(19.3675,20.3633) translate(-119.368,-20.3633)" />
   </g>
   <defs>

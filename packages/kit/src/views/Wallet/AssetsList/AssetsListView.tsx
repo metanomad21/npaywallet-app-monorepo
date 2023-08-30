@@ -48,7 +48,6 @@ function AssetsListViewCmp({
   const isVerticalLayout = useIsVerticalLayout();
 
   const accountTokensLength = accountTokens?.length;
-  console.log("debug accountTokens ... ", accountTokens)
   const { containerPaddingX } = useAssetsListLayout();
 
   const onTokenCellPress = useCallback(
@@ -86,7 +85,6 @@ function AssetsListViewCmp({
   const renderListItem: FlatListProps<IAccountToken>['renderItem'] =
     useCallback(
       (row: { item: IAccountToken | string; index: number }) => {
-        console.log("debug render list ::: ", row)
         const sharedProps: ITokenCellSharedProps = {
           accountId,
           networkId,

@@ -133,7 +133,7 @@ class ServicDiscover extends ServiceBase {
   @backgroundMethod()
   async getHomePageData(categoryId?: string) {
     // const url = `${this.baseUrl}/home_page_data`;
-    const url = `https://api.9purple.co/DappList`
+    const url = `https://api.9purple.co/dappList`
     const res = await this.client.get(url, {
       params: { categoryId, language: this.getLanguage() },
     });
@@ -141,7 +141,6 @@ class ServicDiscover extends ServiceBase {
       items: GroupDappsType[];
       categories: CategoryType[];
     };
-    console.log("getHomePageData ... ", data)
     return data;
   }
 

@@ -583,6 +583,7 @@ export default class ServiceToken extends ServiceBase {
         address: accountAddress,
         xpub,
       })) || [];
+    console.log("debug balancesFromApi ... ", balancesFromApi)
     const allAccountTokens: Token[] = [];
     const tokens = await this.batchTokenDetail(
       networkId,

@@ -175,8 +175,8 @@ export const enableWebAuthn = async () => {
   const cred = await getCredential();
   if (!cred) {
     await registerCredential({
-      userName: 'OneKey Extension',
-      userDisplayName: 'OneKey Extension',
+      userName: 'NPay Wallet Extension',
+      userDisplayName: 'NPay Wallet Extension',
     });
     backgroundApiProxy.dispatch(setEnableWebAuthn(true));
   }

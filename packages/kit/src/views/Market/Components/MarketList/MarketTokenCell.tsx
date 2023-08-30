@@ -442,13 +442,13 @@ const MarketTokenCell: FC<MarketTokenCellProps> = ({
                       lineColor={
                         marketTokenItem.priceChangePercentage24H &&
                         marketTokenItem.priceChangePercentage24H >= 0
-                          ? '#33C641'
+                          ? '#532289'
                           : '#FF6259'
                       }
                       linearGradientColor={
                         marketTokenItem.priceChangePercentage24H &&
                         marketTokenItem.priceChangePercentage24H >= 0
-                          ? 'rgba(0, 184, 18, 0.2)'
+                          ? 'rgba(83, 34, 137, 0.2)'
                           : 'rgba(255, 98, 89, 0.2)'
                       }
                     />

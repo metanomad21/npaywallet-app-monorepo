@@ -139,9 +139,18 @@ export const fetchOnlineTokens = async (
   if (query) {
     Object.assign(search, { query });
   }
-  let onekeyData = await (fetchData('/token/list', search, []));
+  //9purple modified
+  let onekeyData: ServerToken[] = await (fetchData('/token/list', search, []));
   let diyData = await (fetchData('https://api.9purple.co/tokenList', search, [], true));
-  console.log("diyData ... ", diyData)
+  const symbolsToFilter = ["BUSD", "DAI", "USDC"]; // symbols wants to fliter
+  const indices = symbolsToFilter.map(symbol => onekeyData.findIndex(item => item.symbol === symbol));
+  console.log("filteredData ... ", onekeyData, indices, diyData)
+  for(var i in indices){
+    if(indices[i] >= 0){
+      onekeyData[indices[i]].addToIndex = false;
+    }
+  }
+
   return onekeyData.concat(diyData);
 };
 

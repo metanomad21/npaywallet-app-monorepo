@@ -25,8 +25,8 @@ const offsetY = 5;
 
 const SparkLineChart: FC<SparkLineChartProps> = ({
   data,
-  lineColor = 'rgba(0, 184, 18, 1)',
-  linearGradientColor = 'rgba(0, 184, 18, 0.3)',
+  lineColor = 'rgba(83, 34, 137, 1)',
+  linearGradientColor = 'rgba(83, 34, 137, 0.3)',
   height = 40,
   width = 50,
   lineWidth = 2,

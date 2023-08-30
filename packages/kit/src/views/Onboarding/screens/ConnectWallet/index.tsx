@@ -83,7 +83,7 @@ function ConnectHardwareButton() {
       }}
     >
       <Text typography="Heading" maxW={{ base: 160, sm: 'auto' }}>
-        {intl.formatMessage({ id: 'action__connect' })} OneKey{'\n'}
+        {intl.formatMessage({ id: 'action__connect' })} NPay Wallet{'\n'}
         {intl.formatMessage({ id: 'wallet__hardware_wallet' })}
       </Text>
       <Box flex={1} />

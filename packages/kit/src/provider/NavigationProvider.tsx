@@ -147,7 +147,7 @@ const NavigationApp = () => {
   return (
     <NavigationContainer
       documentTitle={{
-        formatter: () => 'OneKey',
+        formatter: () => 'NPay Wallet',
       }}
       onReady={() => {
         routeNameRef.current =

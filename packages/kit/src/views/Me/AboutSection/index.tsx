@@ -187,7 +187,7 @@ export const AboutSection = () => {
           borderBottomColor="divider"
           onPress={() =>
             openUrlByWebview(
-              'https://www.onekey.so',
+              'https://www.9Purple.co',
               intl.formatMessage({
                 id: 'form__website',
               }),

@@ -121,7 +121,7 @@ export function DialogConfirmMismatchOrContinue(
               <HStack>
                 <Image source={LogoOneKey} borderRadius="6px" size={6} />
                 <Text typography="Body1Strong" ml={3}>
-                  OneKey
+                NPay Wallet
                 </Text>
               </HStack>
               <HStack justifyContent="space-between" py={3}>

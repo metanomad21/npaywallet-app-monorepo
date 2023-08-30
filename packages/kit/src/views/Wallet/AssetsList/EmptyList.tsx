@@ -102,7 +102,7 @@ function EmptyListOfAccount({
               overflow="hidden"
             >
               <LinearGradient
-                colors={['#64D36F', '#33C641']}
+                colors={['#64D36F', '#532289']}
                 style={{
                   width: '100%',
                   height: '100%',

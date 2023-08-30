@@ -150,7 +150,6 @@ export function useAssetsListDataFromRedux({
     accountId,
     networkId,
   });
-  console.log("debug useReduxAccountTokensList ... ",tokensList)
   const balancesMap = useReduxAccountTokenBalancesMap({
     accountId,
     networkId,
@@ -251,9 +250,6 @@ function HomeTokenAssetsListCmp({
 }) {
   const [accountTokensInfo] = useAtomAssetsList(atomHomeOverviewAccountTokens);
   const { tokens: accountTokens = freezedEmptyArray } = accountTokensInfo;
-
-  console.log("debug HomeTokenAssetsListCmp .. ", atomHomeOverviewAccountTokens, accountTokensInfo)
-
   const footer = useMemo(
     () => (
       <>

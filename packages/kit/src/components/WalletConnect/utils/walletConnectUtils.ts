@@ -414,7 +414,7 @@ function convertToSessionNamespacesV2({
             events: dappNamespaces[key].events,
           };
           const error = new Error(
-            'OneKey WalletConnect ERROR: EVM chain supported only',
+            'NPay WalletConnect ERROR: EVM chain supported only',
           );
           onError?.(error);
           throw error;

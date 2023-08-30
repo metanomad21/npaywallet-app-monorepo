@@ -48,9 +48,10 @@ export const getBalancesFromApi = async ({
   }
   debugLogger.http.info('getBalancesFromApi', query);
   if(networkId == 'evm--9686'){
-    return (await req
-      .get(`https://api.9purple.co/tokenBalance?address=${address}`, query, undefined, undefined, true)
-      .then((res) => res.json())) as TokenBalancesResponse;
+    // return (await req
+    //   .get(`https://api.9purple.co/tokenBalance?address=${address}`, query, undefined, undefined, true)
+    //   .then((res) => res.json())) as TokenBalancesResponse;
+    return [];
   }else{
     return (await req
       .get('/token/balances', query)

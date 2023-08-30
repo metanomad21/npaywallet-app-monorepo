@@ -50,7 +50,7 @@ const Slider = ({
 
   return nativeMode ? (
     <NativeSlider
-      minimumTrackTintColor="#33c641"
+      minimumTrackTintColor="#532289"
       {...props}
       onSlidingStart={onChangeBegin}
       onSlidingComplete={onChangeEnd}
