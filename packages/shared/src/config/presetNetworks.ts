@@ -72,7 +72,7 @@ const serverPresetNetworks = [
     'impl': 'btc',
     'isTestnet': false,
     'logoURI': 'https://onekey-asset.com/assets/btc/btc.png',
-    'name': 'Bitcoin111',
+    'name': 'Bitcoin',
     'rpcURLs': [
       {
         'url': 'https://node.onekey.so/btc',
