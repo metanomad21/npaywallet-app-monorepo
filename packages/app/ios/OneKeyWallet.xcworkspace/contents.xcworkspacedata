@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:OneKeyWallet.xcodeproj">
+      location = "group:/Users/9purpledao/workspace/app/npaywallet-app-monorepo/packages/app/ios/OneKeyWallet.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
