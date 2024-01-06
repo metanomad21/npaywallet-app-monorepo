@@ -24,7 +24,9 @@ import platformEnv from '@onekeyhq/shared/src/platformEnv';
 
 const UpdateAlert: FC = () => {
   const intl = useIntl();
-  const { enabled, latest: lastVersion } = useAutoUpdate();
+  const { latest: lastVersion } = useAutoUpdate();
+  const enabled = false;
+  // const lastVersion = false;
 
   const navigation = useAppNavigation();
   const isSmallScreen = useIsVerticalLayout();
@@ -60,6 +62,7 @@ const UpdateAlert: FC = () => {
     return null;
   }
 
+  return null;
   return enabled ? (
     <Box
       position="absolute"
